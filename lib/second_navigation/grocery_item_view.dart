@@ -22,7 +22,7 @@ class GroceryItemView extends StatelessWidget {
         ),
         body: Center(
             child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Image.asset(
               'assets/images/grocery.jpg',
