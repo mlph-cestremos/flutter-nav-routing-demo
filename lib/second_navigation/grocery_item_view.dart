@@ -16,7 +16,7 @@ class GroceryItemView extends StatelessWidget {
               child: Icon(
                 Icons.arrow_back,
                 size: 24.0,
-                semanticLabel: 'Back',
+                semanticLabel: 'Return',
               ),
               onTap: () => Navigator.pop(context)),
         ),
