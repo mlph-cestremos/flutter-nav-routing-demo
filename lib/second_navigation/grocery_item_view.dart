@@ -27,8 +27,8 @@ class GroceryItemView extends StatelessWidget {
           children: [
             Image.asset(
               'assets/images/grocery.jpg',
-              width: 310,
-              height: 310,
+              width: 350,
+              height: 350,
             ),
             Text('PHP ${grocery.price.roundToDouble()}'),
             Text(grocery.description)
