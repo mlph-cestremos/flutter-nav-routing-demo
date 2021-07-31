@@ -6,6 +6,9 @@ class GroceryItemView extends StatelessWidget {
 
   const GroceryItemView({Key key, @required this.grocery}) : super(key: key);
 
+  /*
+    This method builds the 'GroceryItemView'
+  */
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
